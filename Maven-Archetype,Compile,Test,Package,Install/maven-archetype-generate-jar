@@ -1,0 +1,37 @@
+Maven-Archetype-Generate-Jar:
+==============================
+
+arti@ip-172-31-6-192:~$ mvn -B archetype:generate \
+>   -DarchetypeGroupId=org.apache.maven.archetypes \
+>   -DgroupId=com.mycompany.app \
+>   -DartifactId=my-app
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> maven-archetype-plugin:3.1.2:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO] 
+[INFO] <<< maven-archetype-plugin:3.1.2:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-archetype-plugin:3.1.2:generate (default-cli) @ standalone-pom ---
+[INFO] Generating project in Batch mode
+[INFO] No archetype defined. Using maven-archetype-quickstart (org.apache.maven.archetypes:maven-archetype-quickstart:1.0)
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Old (1.x) Archetype: maven-archetype-quickstart:1.0
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: basedir, Value: /home/arti
+[INFO] Parameter: package, Value: com.mycompany.app
+[INFO] Parameter: groupId, Value: com.mycompany.app
+[INFO] Parameter: artifactId, Value: my-app
+[INFO] Parameter: packageName, Value: com.mycompany.app
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] project created from Old (1.x) Archetype in dir: /home/arti/my-app
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.955 s
+[INFO] Finished at: 2020-04-07T09:04:02Z
+[INFO] ------------------------------------------------------------------------
