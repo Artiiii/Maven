@@ -1,0 +1,54 @@
+Maven Mirror:
+=============
+
+
+arti@ip-172-31-6-192:~/mydeploy$ mvn package -s maven-settings.xml
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] app                                                                [pom]
+[INFO] my-app                                                             [jar]
+[INFO] my-webapp Maven Webapp                                             [war]
+[INFO] 
+[INFO] -----------------------< com.mycompany.app:app >------------------------
+[INFO] Building app 1.0-SNAPSHOT                                          [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -------------------< com.mycompany.app:my-app-arti >--------------------
+[INFO] Building my-app 1.0-SNAPSHOT                                       [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/maven-parent/22/maven-parent-22.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/apache/11/apache-11.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/apache/11/apache-11.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/maven-parent/23/maven-parent-23.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/maven-parent/23/maven-parent-23.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/apache/13/apache-13.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/apache/13/apache-13.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/maven/maven-parent/21/maven-parent-21.pom (0 B at 0 B/s)
+[INFO] Downloading from mirror-repo: http://3.15.12.17:8081/repository/maven-central/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded from mirror-rep

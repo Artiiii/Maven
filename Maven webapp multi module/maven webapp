@@ -1,0 +1,53 @@
+Maven Webapp:
+================
+
+arti@ip-172-31-6-192:~$ mvn archetype:generate     -DarchetypeGroupId=org.apache.maven.archetypes     -DarchetypeArtifactId=maven-archetype-webapp     -DgroupId=com.mycompany.app     -DartifactId=my-webapp
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> maven-archetype-plugin:3.1.2:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO] 
+[INFO] <<< maven-archetype-plugin:3.1.2:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-archetype-plugin:3.1.2:generate (default-cli) @ standalone-pom ---
+[INFO] Generating project in Interactive mode
+[INFO] Archetype [org.apache.maven.archetypes:maven-archetype-webapp:1.4] found in catalog remote
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-webapp/1.4/maven-archetype-webapp-1.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-webapp/1.4/maven-archetype-webapp-1.4.pom (1.4 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/1.4/maven-archetype-bundles-1.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/1.4/maven-archetype-bundles-1.4.pom (4.5 kB at 140 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-webapp/1.4/maven-archetype-webapp-1.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-webapp/1.4/maven-archetype-webapp-1.4.jar (6.8 kB at 207 kB/s)
+[INFO] Using property: groupId = com.mycompany.app
+[INFO] Using property: artifactId = my-webapp
+Define value for property 'version' 1.0-SNAPSHOT: : i.0-SNAPSHOT
+[INFO] Using property: package = com.mycompany.app
+Confirm properties configuration:
+groupId: com.mycompany.app
+artifactId: my-webapp
+version: i.0-SNAPSHOT
+package: com.mycompany.app
+ Y: : Y
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-webapp:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: com.mycompany.app
+[INFO] Parameter: artifactId, Value: my-webapp
+[INFO] Parameter: version, Value: i.0-SNAPSHOT
+[INFO] Parameter: package, Value: com.mycompany.app
+[INFO] Parameter: packageInPathFormat, Value: com/mycompany/app
+[INFO] Parameter: version, Value: i.0-SNAPSHOT
+[INFO] Parameter: package, Value: com.mycompany.app
+[INFO] Parameter: groupId, Value: com.mycompany.app
+[INFO] Parameter: artifactId, Value: my-webapp
+[INFO] Project created from Archetype in dir: /home/arti/my-webapp
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.735 s
+[INFO] Finished at: 2020-04-08T13:11:58Z
+[INFO] ------------------------------------------------------------------------
